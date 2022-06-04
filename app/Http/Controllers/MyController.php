@@ -22,4 +22,5 @@ class MyController extends Controller
     function galleryMe(){
         return view('gallery');
     }
+    
 }

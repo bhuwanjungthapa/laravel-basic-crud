@@ -52,28 +52,14 @@
                         <div class="p-6">
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    <a style="color:white;font-size:20px;text-decoration:none;" href="{{ url('/gallery') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Gallery</a>
+                                    <a style="color:white;font-size:20px;text-decoration:none;" href="{{ url('/employee') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Employees</a>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
-                            <div class="ml-12">
-                                <a style="color:white;font-size:20px;text-decoration:none;" href="{{ url('/service') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Service</a>
-
-                            </div>
-                        </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                        <div class="ml-12">
-                            <a style="color:white;font-size:20px;text-decoration:none;" href="{{ url('/contact') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Contact</a>
-
                             </div>
                         </div>
 
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
                            <div class="ml-12">
-                            <a style="color:white;font-size:20px;text-decoration:none;" href="{{ url('/about') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">About</a>
+                            <a style="color:white;font-size:20px;text-decoration:none;" href="{{ url('/product') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Products</a>
                             </div>
                         </div>
                     </div>

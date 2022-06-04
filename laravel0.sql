@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 04, 2022 at 02:17 PM
+-- Generation Time: Jun 04, 2022 at 04:32 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -45,8 +45,8 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`id`, `name`, `address`, `email`, `phone`, `dob`, `image`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(3, 'Oshan', 'Baneshwor', 'karkioshan2006@gmail.com', 9824052136, '2022-05-02', NULL, '2022-05-18 09:51:15', '2022-05-19 02:08:22', NULL),
-(4, 'Bhuwan Thapa', 'Old Baneshwor', 'bhuwanjung115@gmail.com', 9810532244, '2022-05-03', NULL, '2022-05-18 10:44:44', '2022-05-18 10:44:44', NULL);
+(4, 'Bhuwan Thapa', 'Old Baneshwor', 'bhuwan@gmail.com', 9810456465, '2022-05-03', NULL, '2022-05-18 10:44:44', '2022-06-04 08:46:13', NULL),
+(5, 'Saujanya chand', 'Old Baneshwor', 'chand@gmail.com', 4234234222, '2022-02-08', NULL, '2022-06-04 08:46:51', '2022-06-04 08:46:51', NULL);
 
 -- --------------------------------------------------------
 
@@ -220,7 +220,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `employees`
 --
 ALTER TABLE `employees`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
